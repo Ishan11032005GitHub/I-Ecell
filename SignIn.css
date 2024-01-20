@@ -1,0 +1,157 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("BACKGROUNGIMAGEFORSIGNIN.jpg");
+    background-size: cover;
+}
+#navbar{
+    z-index: 3;
+    position: fixed;
+    width:100vw;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    border-bottom: 2px solid whitesmoke;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.button{
+    margin-right: 5px;
+    display: inline-block;
+    border: 2px solid wheat;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 10px;
+}
+.a{
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.a:hover{
+    color: greenyellow;
+}
+#logo{
+    margin-top: 0px;
+    color:rgb(231, 245, 35);
+}
+p{
+    color: orangered;
+    margin-top: 15vh;
+    font-weight: 700;
+}
+#Sign-In{
+    text-align: center;
+    font-size: 1.5em;
+    perspective: 1000px;
+    height: 1000px;
+    width: 200px;
+    margin-left: 10%;
+    box-shadow: 8px 8px 8px black;
+    color: aliceblue;
+    width: 80vw;
+    height: 100vh;
+}
+H1{
+    display: inline-block;
+    color: orange;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+#Learn_More{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 0.67em;
+    height: 2rem;
+    line-height: 2rem;
+    left: 5px;
+    color: white;
+    background-color: rgb(255,173,0);
+    width: 100px;
+    border-radius: 10px;
+}
+#Learn_More:hover{
+    translate: y -4px;
+    transition-duration: 2s;
+    box-shadow: 3px 3px 2px black;
+    filter: grayscale(100%);
+}
+#LoginBox{
+    margin-top: 30px;
+    border: 3px dashed maroon;
+    width: 25vw;
+    height: 40vh;
+}
+h2{
+    margin-top: 0px;
+}
+#SUBMIT{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.67em;
+    height: 2rem;
+    line-height: 2rem;
+    left: 5px;
+    color: white;
+    background-color: rgb(255,173,0);
+    width: 100px;
+    border-radius: 10px;
+}
+#SUBMIT:hover{
+    translate: y -4px;
+    transition-duration: 2s;
+    box-shadow: 3px 3px 2px black;
+    filter: grayscale(100%);
+}
+#backtotop{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #7fffd44a;
+}
+#peicewiselink{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+#peicewiselink:hover{
+    color: yellowgreen;
+}
+.subdivsinfooters{
+    display: inline-block;
+    margin-left: 400px;
+    width: 210px;
+    color: rgb(255, 187, 0);
+}
+h4{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: aqua;
+    width: 210px;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+#COPYRIGHT{
+    background-color: #7fffd44a;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+}

@@ -1,0 +1,128 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #F9EFDB;
+}
+#navbar{
+    z-index: 3;
+    position: fixed;
+    width:100vw;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    border-bottom: 2px solid whitesmoke;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.button{
+    margin-right: 5px;
+    display: inline-block;
+    border: 2px solid wheat;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 10px;
+}
+.a{
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.a:hover{
+    color: greenyellow;
+}
+#logo{
+    font-size: ;
+    margin-top: 0px;
+    color:rgb(231, 245, 35);
+}
+#form{
+    display: inline-block;
+    position:relative;
+    background-color: #EBD9B4;
+    width: 30vw;
+    border: 5px double purple;
+}
+h1{
+    text-align: left;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20vw;
+}
+.forms{
+    text-align: left;
+}
+.textbox{
+    border-radius: 10px;
+}
+#male{
+    cursor: pointer;
+}
+#female{
+    cursor: pointer;
+}
+.options{
+    cursor: pointer;
+}
+#Sign_Up{
+    cursor: pointer;
+    height: 3vh;
+    width: 10vw;
+    border-radius: 10px;
+    background-color: plum;
+}
+#Sign_Up:hover{
+    translate: y -4px;
+    box-shadow: 3px 3px 3px black;
+    filter: grayscale(50%);
+    transition-duration: 2s;
+}
+a{ text-decoration: none;
+    color: aliceblue;
+}
+#backtotop{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #7fffd44a;
+}
+#peicewiselink{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+#peicewiselink:hover{
+    color: yellowgreen;
+}
+.subdivsinfooters{
+    display: inline-block;
+    margin-left: 400px;
+    width: 210px;
+    color: rgb(255, 187, 0);
+}
+h4{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: aqua;
+    width: 210px;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+#COPYRIGHT{
+    background-color: #7fffd44a;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+}
